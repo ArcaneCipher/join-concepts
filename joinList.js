@@ -10,7 +10,7 @@
  */
 
 // Write our function (we must define it too!) below
-function joinList(array) {
+const joinList = function (array) {
   if (array.length === 0) return "";
 
   let joinString = "";
